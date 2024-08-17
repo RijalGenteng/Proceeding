@@ -2,6 +2,19 @@
 
 /* Applying the same styles as the main style.css */
 @import url('style.css');
+.header {
+    background-color: #004080;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 
 /* Additional styles specific to about.html */
 .content-wrapper {
@@ -92,4 +105,22 @@
     margin: 0;
     font-size: 24px;
     font-weight: bold;
+}
+
+.tjp {
+    font-size: 30px;
+    margin-left: 25px;
+    text-align:left 
+}
+.tjc {
+    font-size: 20px;
+    margin-left: 25px;
+    text-align:left
+    
+}
+
+.tjs {
+    font-size: 15px;
+    margin-left: 25px;
+    text-align:left 
 }
